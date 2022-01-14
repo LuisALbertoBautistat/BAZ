@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the background properties like color etc -->
+    <item android:id="@android:id/background">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            >
+            <solid android:color="#DFDADA"/>
+            <corners android:radius="9dp"/>
+            <size android:height="1dp" android:width="30dp"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                >
+                <corners android:radius="10dp"/>
+                <size android:height="1dp" android:width="30dp"/>
+                <solid android:color="@color/primary_color"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
